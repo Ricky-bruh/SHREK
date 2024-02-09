@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('SHREK.jpg') center/cover;
+}
+
+.container {
+    text-align: center;
+    color: white; /* Cambia il colore del testo per renderlo leggibile sull'immagine di sfondo */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shrek {
+    font-family: 'JLR Star Shrek', sans-serif;
+}
